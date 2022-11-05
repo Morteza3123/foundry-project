@@ -747,7 +747,7 @@
       }
     },
     "src/Counter.sol": {
-      "lastModificationDate": 1667601838575,
+      "lastModificationDate": 1667603589730,
       "contentHash": "77a353476edda7849230ca02a68a28bf",
       "sourceName": "src/Counter.sol",
       "solcConfig": {
@@ -786,8 +786,63 @@
         }
       }
     },
+    "test/ContractBTest.t.sol": {
+      "lastModificationDate": 1667611540859,
+      "contentHash": "9044fd03f398f37d41b0482a7da304aa",
+      "sourceName": "test/ContractBTest.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src\\test.sol",
+        "lib/forge-std/src/Common.sol",
+        "lib/forge-std/src/Components.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src\\Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "ContractBTest": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ContractBTest.t.sol\\ContractBTest.json"
+        }
+      }
+    },
     "test/Counter.t.sol": {
-      "lastModificationDate": 1667601983921,
+      "lastModificationDate": 1667603494039,
       "contentHash": "763fcb0eba918ead1487eed1caa5b4b5",
       "sourceName": "test/Counter.t.sol",
       "solcConfig": {
